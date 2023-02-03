@@ -1,0 +1,16 @@
+[Ellipse with Murdoch and Chow's function ellipse from their ellipse package]
+--- Pearson's product-moment correlation --- 
+ 
+Number of paired values with neither missing, n = 511 
+Sample Correlation of nox_concentration and index_accesibility_hway: r = 0.609 
+  
+Hypothesis Test of 0 Correlation:  t = 17.338,  df = 509,  p-value = 0.000 
+95% Confidence Interval for Correlation:  0.552 to 0.661 
+  
+
+Some Parameter values (can be manually set) 
+------------------------------------------------------- 
+size: 0.80  size of plotted points 
+jitter_y: 1.00  random vertical movement of points 
+jitter_x: 0.00  random horizontal movement of points 
+

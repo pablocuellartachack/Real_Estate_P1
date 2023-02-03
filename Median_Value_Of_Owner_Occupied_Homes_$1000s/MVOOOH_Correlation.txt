@@ -1,0 +1,14 @@
+Correlation Analysis for Variables nox_concentration and median_val_owner_occupied_thousands 
+  
+--- Pearson's product-moment correlation --- 
+ 
+Number of paired values with neither missing, n = 511 
+Number of cases (rows of data) deleted: 0 
+
+Sample Covariance: s = -0.450 
+ 
+Sample Correlation: r = -0.411 
+
+Hypothesis Test of 0 Correlation:  t = -10.186,  df = 509,  p-value = 0.000 
+95% Confidence Interval for Correlation:  -0.481 to -0.337 
+

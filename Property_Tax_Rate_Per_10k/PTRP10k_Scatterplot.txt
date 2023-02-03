@@ -1,0 +1,10 @@
+[Ellipse with Murdoch and Chow's function ellipse from their ellipse package]
+--- Pearson's product-moment correlation --- 
+ 
+Number of paired values with neither missing, n = 511 
+Sample Correlation of nox_concentration and prop_tax_per_ten_k: r = 0.667 
+  
+Hypothesis Test of 0 Correlation:  t = 20.196,  df = 509,  p-value = 0.000 
+95% Confidence Interval for Correlation:  0.616 to 0.713 
+  
+

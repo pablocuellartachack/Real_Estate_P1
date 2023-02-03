@@ -1,0 +1,38 @@
+[Violin/Box/Scatterplot graphics from Deepayan Sarkar's lattice package]
+>>> Suggestions
+Plot(owner_live_built_prefourties, out_cut=2, fences=TRUE, vbs_mean=TRUE)  # Label two outliers ...
+Plot(owner_live_built_prefourties, box_adj=TRUE)  # Adjust boxplot whiskers for asymmetry 
+
+--- owner_live_built_prefourties --- 
+Present: 511 
+Missing: 0 
+Total  : 511 
+ 
+Mean         : 68.62 
+Stnd Dev     : 28.10 
+IQR          : 49.00 
+Skew         : -0.36   [medcouple, -1 to 1] 
+ 
+Minimum      : 2.90 
+Lower Whisker: 2.90 
+1st Quartile : 45.05 
+Median       : 77.30 
+3rd Quartile : 94.05 
+Upper Whisker: 100.00 
+Maximum      : 100.00 
+
+No (Box plot) outliers 
+
+                             Max Dupli- 
+Level                         cations   Values 
+------------------------------ 
+owner_live_built_prefourties     43      
+
+Parameter values (can be manually set) 
+------------------------------------------------------- 
+size: 0.26      size of plotted points 
+out_size: 0.68  size of plotted outlier points 
+jitter_y: 1.97 random vertical movement of points 
+jitter_x: 0.80  random horizontal movement of points 
+bw: 12.87       set bandwidth higher for smoother edges 
+

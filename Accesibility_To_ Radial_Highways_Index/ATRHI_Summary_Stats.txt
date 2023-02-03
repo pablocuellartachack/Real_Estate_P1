@@ -1,0 +1,38 @@
+[Violin/Box/Scatterplot graphics from Deepayan Sarkar's lattice package]
+>>> Suggestions
+Plot(index_accesibility_hway, out_cut=2, fences=TRUE, vbs_mean=TRUE)  # Label two outliers ...
+Plot(index_accesibility_hway, box_adj=TRUE)  # Adjust boxplot whiskers for asymmetry 
+
+--- index_accesibility_hway --- 
+Present: 511 
+Missing: 0 
+Total  : 511 
+ 
+Mean         : 9.49 
+Stnd Dev     : 8.69 
+IQR          : 20.00 
+Skew         : 0.81   [medcouple, -1 to 1] 
+ 
+Minimum      : 1.00 
+Lower Whisker: 1.00 
+1st Quartile : 4.00 
+Median       : 5.00 
+3rd Quartile : 24.00 
+Upper Whisker: 24.00 
+Maximum      : 24.00 
+
+No (Box plot) outliers 
+
+                        Max Dupli- 
+Level                    cations   Values 
+------------------------------ 
+index_accesibility_hway    132      
+
+Parameter values (can be manually set) 
+------------------------------------------------------- 
+size: 0.31      size of plotted points 
+out_size: 0.70  size of plotted outlier points 
+jitter_y: 3.40 random vertical movement of points 
+jitter_x: 1.08  random horizontal movement of points 
+bw: 5.83       set bandwidth higher for smoother edges 
+

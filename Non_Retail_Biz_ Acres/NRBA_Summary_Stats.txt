@@ -1,0 +1,38 @@
+[Violin/Box/Scatterplot graphics from Deepayan Sarkar's lattice package]
+>>> Suggestions
+Plot(nonr_biz_acres, out_cut=2, fences=TRUE, vbs_mean=TRUE)  # Label two outliers ...
+Plot(nonr_biz_acres, box_adj=TRUE)  # Adjust boxplot whiskers for asymmetry 
+
+--- nonr_biz_acres --- 
+Present: 511 
+Missing: 0 
+Total  : 511 
+ 
+Mean         : 11.151 
+Stnd Dev     : 6.828 
+IQR          : 12.910 
+Skew         : 0.238   [medcouple, -1 to 1] 
+ 
+Minimum      : 0.460 
+Lower Whisker: 0.460 
+1st Quartile : 5.190 
+Median       : 9.690 
+3rd Quartile : 18.100 
+Upper Whisker: 27.740 
+Maximum      : 27.740 
+
+No (Box plot) outliers 
+
+               Max Dupli- 
+Level           cations   Values 
+------------------------------ 
+nonr_biz_acres    132     18.1 
+
+Parameter values (can be manually set) 
+------------------------------------------------------- 
+size: 0.31      size of plotted points 
+out_size: 0.70  size of plotted outlier points 
+jitter_y: 3.40 random vertical movement of points 
+jitter_x: 1.08  random horizontal movement of points 
+bw: 4.58       set bandwidth higher for smoother edges 
+

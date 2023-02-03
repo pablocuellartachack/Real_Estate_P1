@@ -1,0 +1,62 @@
+[Violin/Box/Scatterplot graphics from Deepayan Sarkar's lattice package]
+>>> Suggestions
+Plot(per_capita_crime, out_cut=2, fences=TRUE, vbs_mean=TRUE)  # Label two outliers ...
+Plot(per_capita_crime, box_adj=TRUE)  # Adjust boxplot whiskers for asymmetry 
+
+--- per_capita_crime --- 
+Present: 511 
+Missing: 0 
+Total  : 511 
+ 
+Mean         : 3.584139 
+Stnd Dev     : 8.564433 
+IQR          : 3.538850 
+Skew         : 0.907233   [medcouple, -1 to 1] 
+ 
+Minimum      : 0.006320 
+Lower Whisker: 0.006320 
+1st Quartile : 0.082325 
+Median       : 0.261690 
+3rd Quartile : 3.621175 
+Upper Whisker: 8.792120 
+Maximum      : 88.976200 
+
+  
+--- Outliers ---     from the box plot: 67 
+ 
+Small      Large 
+-----      ----- 
+            88.97620 
+            73.53410 
+            67.92080 
+            51.13580 
+            45.74610 
+            41.52920 
+            38.35180 
+            37.66190 
+            28.65580 
+            25.94060 
+            25.04610 
+            24.80170 
+            24.39380 
+            23.64820 
+            22.59710 
+            22.05110 
+            20.71620 
+            20.08490 
+
++ 49 more outliers 
+
+                 Max Dupli- 
+Level             cations   Values 
+------------------------------ 
+per_capita_crime      2     0.01501 14.3337 
+
+Parameter values (can be manually set) 
+------------------------------------------------------- 
+size: 0.08      size of plotted points 
+out_size: 0.61  size of plotted outlier points 
+jitter_y: 3.32 random vertical movement of points 
+jitter_x: 0.06  random horizontal movement of points 
+bw: 1.77       set bandwidth higher for smoother edges 
+

@@ -1,0 +1,14 @@
+Correlation Analysis for Variables nox_concentration and per_capita_crime 
+  
+--- Pearson's product-moment correlation --- 
+ 
+Number of paired values with neither missing, n = 511 
+Number of cases (rows of data) deleted: 0 
+
+Sample Covariance: s = 0.415 
+ 
+Sample Correlation: r = 0.421 
+
+Hypothesis Test of 0 Correlation:  t = 10.457,  df = 509,  p-value = 0.000 
+95% Confidence Interval for Correlation:  0.346 to 0.489 
+

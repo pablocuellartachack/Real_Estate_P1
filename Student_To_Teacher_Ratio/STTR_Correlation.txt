@@ -1,0 +1,14 @@
+Correlation Analysis for Variables nox_concentration and stu_teach_ratio 
+  
+--- Pearson's product-moment correlation --- 
+ 
+Number of paired values with neither missing, n = 511 
+Number of cases (rows of data) deleted: 0 
+
+Sample Covariance: s = 0.047 
+ 
+Sample Correlation: r = 0.186 
+
+Hypothesis Test of 0 Correlation:  t = 4.273,  df = 509,  p-value = 0.000 
+95% Confidence Interval for Correlation:  0.101 to 0.268 
+

@@ -1,0 +1,47 @@
+[Violin/Box/Scatterplot graphics from Deepayan Sarkar's lattice package]
+>>> Suggestions
+Plot(dis_five_employ_center, out_cut=2, fences=TRUE, vbs_mean=TRUE)  # Label two outliers ...
+Plot(dis_five_employ_center, box_adj=TRUE)  # Adjust boxplot whiskers for asymmetry 
+
+--- dis_five_employ_center --- 
+Present: 511 
+Missing: 0 
+Total  : 511 
+ 
+Mean         : 3.78388 
+Stnd Dev     : 2.09863 
+IQR          : 3.01765 
+Skew         : 0.33529   [medcouple, -1 to 1] 
+ 
+Minimum      : 1.12960 
+Lower Whisker: 1.12960 
+1st Quartile : 2.10035 
+Median       : 3.15230 
+3rd Quartile : 5.11800 
+Upper Whisker: 9.22290 
+Maximum      : 12.12650 
+
+  
+--- Outliers ---     from the box plot: 5 
+ 
+Small      Large 
+-----      ----- 
+            12.1265 
+            10.7103 
+            10.7103 
+            10.5857 
+            10.5857 
+
+                       Max Dupli- 
+Level                   cations   Values 
+------------------------------ 
+dis_five_employ_center      5     3.4952 
+
+Parameter values (can be manually set) 
+------------------------------------------------------- 
+size: 0.26      size of plotted points 
+out_size: 0.68  size of plotted outlier points 
+jitter_y: 1.97 random vertical movement of points 
+jitter_x: 0.15  random horizontal movement of points 
+bw: 0.60       set bandwidth higher for smoother edges 
+

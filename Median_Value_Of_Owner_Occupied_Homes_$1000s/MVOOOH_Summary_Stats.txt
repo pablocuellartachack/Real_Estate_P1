@@ -1,0 +1,62 @@
+[Violin/Box/Scatterplot graphics from Deepayan Sarkar's lattice package]
+>>> Suggestions
+Plot(median_val_owner_occupied_thousands, out_cut=2, fences=TRUE, vbs_mean=TRUE)  # Label two outliers ...
+Plot(median_val_owner_occupied_thousands, box_adj=TRUE)  # Adjust boxplot whiskers for asymmetry 
+
+--- median_val_owner_occupied_thousands --- 
+Present: 511 
+Missing: 0 
+Total  : 511 
+ 
+Mean         : 22.68 
+Stnd Dev     : 9.48 
+IQR          : 7.95 
+Skew         : 0.11   [medcouple, -1 to 1] 
+ 
+Minimum      : 5.00 
+Lower Whisker: 5.60 
+1st Quartile : 17.05 
+Median       : 21.20 
+3rd Quartile : 25.00 
+Upper Whisker: 36.50 
+Maximum      : 67.00 
+
+  
+--- Outliers ---     from the box plot: 42 
+ 
+Small      Large 
+-----      ----- 
+ 5.0      67.0 
+ 5.0      54.0 
+          50.0 
+          50.0 
+          50.0 
+          50.0 
+          50.0 
+          50.0 
+          50.0 
+          50.0 
+          50.0 
+          50.0 
+          50.0 
+          50.0 
+          50.0 
+          50.0 
+          50.0 
+          50.0 
+
++ 24 more outliers 
+
+                                    Max Dupli- 
+Level                                cations   Values 
+------------------------------ 
+median_val_owner_occupied_thousands     16     50 
+
+Parameter values (can be manually set) 
+------------------------------------------------------- 
+size: 0.19      size of plotted points 
+out_size: 0.66  size of plotted outlier points 
+jitter_y: 2.47 random vertical movement of points 
+jitter_x: 0.42  random horizontal movement of points 
+bw: 3.98       set bandwidth higher for smoother edges 
+
