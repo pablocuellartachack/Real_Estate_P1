@@ -82,18 +82,18 @@ ggscatterstats(data = real_estate_p1, x= nox_concentration, y= per_capita_crime,
 
 #Number 2 - Residential Land Zoned Over 25,000 sqft V.s. Nitric Ocide Concentration
 
-Plot(rl_twentyfive_k_sqft, xlab = "Residential Land Zoned > 25k sqft", data=real_estate_p1)
+Plot(rl_twentyfive_k_sqft, xlab = "Residential Land Zoned For Lots > 25k sqft", data=real_estate_p1)
 
 ScatterPlot(nox_concentration, rl_twentyfive_k_sqft, data=real_estate_p1,
             ellipse=TRUE, xlab = "Nitric Ocide Concentration", 
-            ylab = "Residential Land Zoned > 25k sqft", 
+            ylab = "Residential Land Zoned For Lots > 25k sqft", 
             ylim=c(0,100), color="blue")
 
 Correlation(nox_concentration, rl_twentyfive_k_sqft, data=real_estate_p1)
 
 ggscatterstats(data = real_estate_p1, x= nox_concentration, y= rl_twentyfive_k_sqft, 
                type = "parametric", xlab = "Nitric Ocide Concentration", 
-               ylab = "Residential Land Zoned > 25k sqft")
+               ylab = "Residential Land Zoned For Lots > 25k sqft")
 
 
 #Number 3 - Non-Retail Business Acres V.s. Nitric Ocide Concentration
