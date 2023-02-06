@@ -11,7 +11,7 @@ connection = dbConnect(RMySQL::MySQL(),
                        host ="localhost",
                        port = 3306,
                        user = "root",
-                       password = "sqHkFYJd9@")
+                       password = "Github_NA")
 dbListTables(connection)
 real_estate_p1 <- dbReadTable(connection, "raw_data")
 print (real_estate_p1)
