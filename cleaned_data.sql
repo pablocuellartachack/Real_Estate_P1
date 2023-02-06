@@ -1,4 +1,4 @@
-ALTER USER 'root'@'localhost' IDENTIFIED BY 'U_thought_Id_upload_my_password_to_github_lol';
+ALTER USER 'root'@'localhost' IDENTIFIED BY 'Github_NA';
 FLUSH PRIVILEGES;
 Create database Raw_Data;
 
